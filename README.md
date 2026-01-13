@@ -7,7 +7,7 @@ Application Version: OrangeHRM OS 5.7
 Platform: Windows 11
 URL:(https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
 
-TC01 – Valid Login Credentials
+(TC01) – Valid Login Credentials
 Objective: Verify Administrator can log in with correct credentials.
 
 Steps:
@@ -24,7 +24,7 @@ Expected Result: User is redirected to the dashboard.
 Actual Result: Login successful redirected to the dashboard
 
 
-TC02 – Valid Login Credentials
+(TC02) – Valid Login Credentials
 Objective: Verify Standard user can log in with correct credentials.
 
 Steps:
@@ -42,7 +42,7 @@ Actual Result: Login successful redirected to the dashboard
 
 
 Negative Test Cases
-TC03 – Invalid Username
+(TC03) – Invalid Username
 Objective: Verify login fails with incorrect username.
 
 Steps:
@@ -72,7 +72,7 @@ Expected Result: Error message appears: “Invalid credentials.”
 Actual Result: Error message: “Invalid credentials”
 
 
-TC05 – Case sensitive password
+(TC05) – Case sensitive password
 Objective: Verify that the application correctly enforces case sensitivity in the password field during login authentication.
 
 Steps:
@@ -106,7 +106,7 @@ Expected Result: Blank login fields after logging in and manually pushing browse
 Actual Result: Login credentials retained in both fields
 
 
-TC07 – Empty Fields
+(TC07) – Empty Fields
 Objective: Verify login fails when both fields are empty.
 
 Steps:
@@ -119,7 +119,7 @@ Expected Result: Error message or validation prompt appears.
 Actual Result: Error message – “Required” for both missing fields
 
 
-TC08 – Only Username Entered
+(TC08) – Only Username Entered
 Objective: Verify login fails when password is missing.
 
 Steps:
@@ -134,7 +134,7 @@ Expected Result: Error message or validation prompt appears.
 Actual Result: Error message - “Required” for missing password field.
 
 
-TC09 – Only Password Entered
+(TC09) – Only Password Entered
 Objective: Verify login fails when username is missing.
 
 Steps:
@@ -150,7 +150,7 @@ Actual Result: Error message – “Required” for missing username field.
 
 
 Security & Session Test Cases
-TC10 – Session Timeout
+(TC10) – Session Timeout
 Objective: Verify session expires after inactivity.
 
 Steps:
