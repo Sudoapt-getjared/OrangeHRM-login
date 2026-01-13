@@ -22,7 +22,7 @@ Steps:
 
 Expected Result: User is redirected to the dashboard.
 Actual Result: Login successful redirected to the dashboard
-https://github.com/Sudoapt-getjared/OrangeHRM-login/blob/main/README.md
+
 
 TC02 – Valid Login Credentials
 Objective: Verify Standard user can log in with correct credentials.
@@ -40,6 +40,7 @@ Steps:
 Expected Result: User is redirected to the dashboard.
 Actual Result: Login successful redirected to the dashboard
 
+
 Negative Test Cases
 TC03 – Invalid Username
 Objective: Verify login fails with incorrect username.
@@ -55,6 +56,7 @@ Steps:
 Expected Result: Error message appears: “Invalid credentials.”
 Actual Result: Error message: “Invalid credentials”
 
+
 TC04 – Invalid Password
 Objective: Verify login fails with incorrect password.
 
@@ -69,6 +71,7 @@ Steps:
 Expected Result: Error message appears: “Invalid credentials.”
 Actual Result: Error message: “Invalid credentials”
 
+
 TC05 – Case sensitive password
 Objective: Verify that the application correctly enforces case sensitivity in the password field during login authentication.
 
@@ -82,6 +85,7 @@ Steps:
 
 Expected Result: Error message appears: “Invalid credentials.”
 Actual Result: Error message: “Invalid credentials”
+
 
 TC06 – Verify login credentials are not retained after logout
 Objective: To ensure that after logging out of the application, the username and password fields are cleared and not auto-filled on return to the login page
@@ -101,6 +105,7 @@ Enter password: Admin123
 Expected Result: Blank login fields after logging in and manually pushing browser back button
 Actual Result: Login credentials retained in both fields
 
+
 TC07 – Empty Fields
 Objective: Verify login fails when both fields are empty.
 
@@ -112,6 +117,7 @@ Steps:
 
 Expected Result: Error message or validation prompt appears.
 Actual Result: Error message – “Required” for both missing fields
+
 
 TC08 – Only Username Entered
 Objective: Verify login fails when password is missing.
@@ -127,6 +133,7 @@ Click "Login".
 Expected Result: Error message or validation prompt appears.
 Actual Result: Error message - “Required” for missing password field.
 
+
 TC09 – Only Password Entered
 Objective: Verify login fails when username is missing.
 
@@ -140,6 +147,7 @@ Click "Login".
 
 Expected Result: Error message or validation prompt appears.
 Actual Result: Error message – “Required” for missing username field.
+
 
 Security & Session Test Cases
 TC10 – Session Timeout
