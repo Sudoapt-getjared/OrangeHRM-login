@@ -5,7 +5,7 @@ Test Environment Details
 Browser: Google Chrome (Version 143.0.7499.170 (Official Build) (64-bit)
 Application Version: OrangeHRM OS 5.7
 Platform: Windows 11
-URL:[ https://opensource-demo.orangehrmlive.com/ (opensource-demo.orangehrmlive.com in Bing)](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
+URL:(https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
 
 TC01 – Valid Login Credentials
 Objective: Verify Administrator can log in with correct credentials.
@@ -22,6 +22,7 @@ Steps:
 
 Expected Result: User is redirected to the dashboard.
 Actual Result: Login successful redirected to the dashboard
+https://github.com/Sudoapt-getjared/OrangeHRM-login/blob/main/README.md
 
 TC02 – Valid Login Credentials
 Objective: Verify Standard user can log in with correct credentials.
